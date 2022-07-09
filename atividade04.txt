@@ -1,0 +1,54 @@
+algoritmo "dadosPessoais"
+
+var
+Nome, Endereco, Cidade,Nomedopai, Nomedamae: caractere
+cpf, Rg, Idade:inteiro
+Peso, Rendabruta: real
+
+
+inicio
+
+Escreval("Digite seu nome:")
+
+Leia(nome)
+
+Escreval("Informe seu endereço:")
+
+Leia(endereco)
+
+Escreval("Qual a sua cidade?")
+
+Leia(cidade)
+
+Escreval("Informe seu cpf:")
+
+Leia(cpf)
+
+Escreval("Informe seu rg:")
+
+Leia (rg)
+
+Escreval("Qual a sua idade?")
+
+Leia(idade)
+
+Escreval("Informe o nome do seu pai:")
+
+Leia(nomedopai)
+
+Escreval("Qual o nome de sua mãe?")
+
+Leia(nomedamae)
+
+Escreval("Informe seu peso:")
+
+
+Leia(peso)
+
+Escreval("Qual a sua renda bruta?")
+
+Leia(rendabruta)
+
+
+
+fimalgoritmo
