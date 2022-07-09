@@ -1,0 +1,32 @@
+algoritmo "DadosPessoais"
+
+var
+
+Nome, Endereco: caractere
+cpf, rg: inteiro
+Altura: real
+inicio
+
+
+ Escreval("Digite seu nome:")
+ 
+ Leia(Nome)
+ 
+ Escreval("Digite seu cpf:")
+ 
+ Leia(cpf)
+ 
+ Escreval("Informe seu rg:")
+ 
+ Leia(rg)
+ 
+ Escreval("Informe a sua altura:")
+ 
+ Leia(altura)
+ 
+ Escreval("Informe o seu endereço:")
+ 
+ Leia(endereco)
+
+
+fimalgoritmo
