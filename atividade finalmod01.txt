@@ -1,0 +1,30 @@
+algoritmo:"turmas"
+
+var
+turmaA, turmaB, turmaC,turmaD:inteiro
+nome, turma:caracter
+nota:real
+alunosAprovados<-0, cont<-0
+
+inicio
+alunosAprovados<- 0 
+cont <- 0
+Escreval("Qual o seu nome?")
+Leia(nome)
+
+Escreval("Qual foi a sua nota no vestibular?")
+Leia(nota)
+
+Escreval("Qual a sua turma?")
+
+leia(turma)
+se nota >=7 entao
+alunosAprovados <- alunosAprovados + 1
+
+fimse
+cont <- cont + 1 
+ate cont >=5
+Escreval("Foram", alunosAprovados, "aprovados.")
+
+
+fimalgoritmo
