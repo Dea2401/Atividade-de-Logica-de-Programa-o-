@@ -1,0 +1,24 @@
+algoritmo "transportes"
+
+var trator, caminhao, trem, bicicleta, onibus, moto, carro: caractere
+asa delta, balao, aviao, helicoptero: caractere
+submarino, barco, navio, lancha: caractere
+
+
+inicio
+Escreval("O transporte em questão é terrestre?")
+Se S entao
+escreval("cabe apenas um pedestre?")
+Se S entao
+Escreval ("É pesado?") 
+Se S entao 
+escreval("O transporte é:")
+leia(trator)
+FimSe
+FimSe
+FimSe
+
+FimAlgoritmo
+
+
+
